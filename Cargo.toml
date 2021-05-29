@@ -1,0 +1,14 @@
+[package]
+name = "spotify-liked-songs"
+version = "0.1.0"
+authors = ["Alaa Zorkane <alaazorkane@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.13.0"
+dotenv = "0.15"
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0.126", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
